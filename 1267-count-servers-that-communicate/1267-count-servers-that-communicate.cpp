@@ -1,6 +1,7 @@
 class Solution {
 public:
     int countServers(vector<vector<int>>& grid) {
+
         int m = grid.size(); // number of rows
         int n = grid[0].size(); // number of columns
 
@@ -29,5 +30,6 @@ public:
         }
 
         return count;
+        
     }
 };
